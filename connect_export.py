@@ -4,10 +4,10 @@ from datetime import datetime, timedelta
 import json
 from pymongo import MongoClient
 
-ATLAS_URI = "mongodb://guilherme.barnekow:ZQSBh0LRQ1bXFHbEhX9W@192.168.100.223:27017,192.168.100.224:27017,192.168.100.225:27017/prodvenc?authSource=admin&readPreference=secondary&replicaSet=hmlRepl"
-DB_NAME = "prodvenc"
-COLLECTION_NAME = "prodvenc"
-EXPORT_PATH = r"/home/user/Área de Trabalho/1/exportacao.json"
+ATLAS_URI = ""
+DB_NAME = ""
+COLLECTION_NAME = ""
+EXPORT_PATH = r""
 
 def extract_and_export_mongo_data():
     client = MongoClient(ATLAS_URI)
