@@ -4,13 +4,13 @@ from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.backends import default_backend
 
 # Definições das variáveis de conexão
-account = 'gk08810.sa-east-1.aws'
-user_snowflake = 'guilhermebirnfeld'
+account = ''
+user_snowflake = ''
 passphrase = ''
-warehouse = 'compute_wh'
-database = 'USERS'
-schema = 'public'
-stage_name = 'usuarios'
+warehouse = ''
+database = ''
+schema = ''
+stage_name = ''
 
 # Leitura da chave privada
 with open('/home/user/airflow/dags/rsa_key.p8', 'rb') as key_file:
@@ -37,7 +37,7 @@ conn = snowflake.connector.connect(
 )
 
 # Carregar o arquivo Parquet em um DataFrame do Pandas
-df = pd.read_parquet(r'/home/user/Área de Trabalho/scripts/exportacao.parquet')
+df = pd.read_parquet(r'')
 
 # Criação de um stage temporário para carga
 stage_command = f"CREATE OR REPLACE TEMPORARY STAGE {stage_name}"
