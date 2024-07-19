@@ -18,14 +18,14 @@ DB_NAME = "prodvenc"
 COLLECTION_NAME = "prodvenc"
 
 # Variáveis de conexão Snowflake
-account = 'vo78532.sa-east-1.aws'
-user_snowflake = 'guilhermebarnekow'
+account = ''
+user_snowflake = ''
 passphrase = ''
-warehouse = 'compute_wh'
-database = 'onion'
-schema = 'stages'
-stage_name = 'stage'
-private_key_path = r'/home/user/airflow/dags/rsa_key.p8'
+warehouse = ''
+database = ''
+schema = ''
+stage_name = ''
+private_key_path = r''
 
 # Caminhos dos arquivos temporários
 TEMP_JSON_PATH = '/tmp/temp_data.json'
