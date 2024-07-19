@@ -13,7 +13,7 @@ import io
 import os
 
 # Variáveis de conexão MongoDB
-ATLAS_URI = "mongodb://guilherme.barnekow:cmpFNfgaFbvG8Xb3N2eX@192.168.100.128:27017,192.168.100.130:27017,192.168.100.132:27017/prodvenc?authSource=admin&readPreference=secondaryPreferred&replicaSet=hmlRepl"
+ATLAS_URI = ""
 DB_NAME = "prodvenc"
 COLLECTION_NAME = "prodvenc"
 
